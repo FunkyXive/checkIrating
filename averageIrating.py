@@ -30,3 +30,4 @@ with open('members.csv', newline='') as csvfile:
                     iratingsToAverage.append(int(category['irating']))
 
         print(f"Counted {len(members)} members with a total of {sum(iratingsToAverage)} irating for an average of {sum(iratingsToAverage)/len(members)}")
+        #tester lige noget shit her
